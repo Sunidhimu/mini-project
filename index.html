@@ -1,0 +1,299 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Online Canteen</title>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#scrollmenu{
+  display: flex;
+  flex-wrap: nowrap;
+}
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("hero-image.jpg");
+  height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+  
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color:orange;
+  position: sticky;
+}
+
+.topnav a {
+  float: left;
+  color:white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: solid;
+  font-size: 17px;
+
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+
+.break{
+  margin-left: 5px;
+  width: 180px;
+  height: 300px;
+  border-radius: 90px;
+}
+.or{
+background-color:transparent;
+cursor:pointer;
+width: 100px;
+height: 30px;
+border-radius: 50px;
+text-decoration: underline;
+}
+
+ .scroll{
+  overflow-x: scroll;
+  overflow-y:hidden;
+  white-space:nowrap;
+
+ }
+
+.card{
+  display: inline-block;
+  flex: 0.25;
+}
+
+.heading01{
+  display: block;
+  margin-top: 30px;
+  margin-left: 50px;
+  text-decoration: solid;
+  font-weight: bold;
+  font-size: 30px;
+  font-style:italic;
+  color:purple;
+  margin-bottom:50px;
+}
+</style>
+</head>
+<body>
+
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size: 50px">FCRIT CANTEEN</h1>
+    <p>Food is an emotion</p>
+    <button >Get started</button>
+  </div>
+</div>
+
+<p></p>
+<div class="topnav">
+    <a href="#a">Home</a>
+    <a href="#s-i">South-Indian Special</a>
+    <a href="#n-i">Lunch</a>
+    <a href="#c-f" >Chinese</a>
+    <a href="#About Us">Beverages</a>
+    <a href="#snacks">Snacks</a>
+    <a href="#aboiut">About</a>
+    <a href="#cart">Cart</a>
+    <a href="login.html">Login</a>
+  </div>
+  <div class="heading01">
+    South -Indian Special 
+  </div>
+  <div class="scroll"></div>
+  <div id="scrollmenu">
+  <div class="card">
+    <img class="break" src="idli.webp" alt="idli">
+    <button class="or">Order</button>
+  </div>
+  <div class="card">
+    <img class="break" src="dosa.jfif" alt="dosa">
+    <button class="or">Order</button>
+</div>
+<div class="card">
+  <img class="break" src="MEDUV.jpeg" alt="vada">
+  <button class="or">Order</button>
+</div>
+<div class="card">
+  <img class="break" src="APP2.jpg" alt="omlete">
+  <button class="or">Order</button>
+</div>
+<div class="card">
+  <img class="break" src="APPA.jpeg" alt="poha">
+  <button class="or">Order</button>
+</div>
+<div class="card">
+  <img class="break" src="ARO.webp" alt="Paratha">
+  <button class="or">Order</button>
+</div>
+</div>
+
+<div class="heading01">
+  Lunch
+</div>
+<div class="scroll"></div>
+<div class="card">
+  <img class="break" src="t1.jpg&width=500&resizemode=4" alt="idli">
+  <button class="or">Order</button>
+</div>
+<div class="card">
+  <img class="break" src="t2.jpg" alt="dosa">
+  <button class="or">Order</button>
+</div>
+<div class="card">
+<img class="break" src="t3.jpeg" alt="vada">
+<button class="or">Order</button>
+</div>
+<div class="card">
+<img class="break" src="dalrice.jpg" alt="omlete">
+<button class="or">Order</button>
+</div>
+<div class="card">
+<img class="break" src="c1.webp" alt="poha">
+<button class="or">Order</button>
+</div>
+<div class="card">
+<img class="break" src="medu.jpg" alt="Paratha">
+<button class="or">Order</button>
+</div>
+<div class="heading01">
+  Chinese 
+</div>
+<div class="scroll"></div>
+<div class="card">
+  <img class="break" src="s1.jpeg" alt="idli">
+  <button class="or">Order</button>
+</div>
+<div class="card">
+  <img class="break" src="sc1.jpg" alt="dosa">
+  <button class="or">Order</button>
+</div>
+<div class="card">
+<img class="break" src="ch1.jpg" alt="vada">
+<button class="or">Order</button>
+</div>
+<div class="card">
+<img class="break" src="ch2.jpg" alt="omlete">
+<button class="or">Order</button>
+</div>
+<div class="card">
+<img class="break" src="so2.jpg" alt="poha">
+<button class="or">Order</button>
+</div>
+<div class="card">
+<img class="break" src="so1.jpg" alt="Paratha">
+<button class="or">Order</button>
+</div>
+<div class="heading01">
+  Beverages 
+</div>
+<div class="scroll"></div>
+<div class="card">
+  <img class="break" src="Tea-.webp" alt="idli">
+  <button class="or">Order</button>
+</div>
+<div class="card">
+  <img class="break" src="cofffes.webp" alt="dosa">
+  <button class="or">Order</button>
+</div>
+<div class="card">
+<img class="break" src="milk.jpg" alt="vada">
+<button class="or">Order</button>
+</div>
+<div class="card">
+<img class="break" src="bmi.jpg" alt="omlete">
+<button class="or">Order</button>
+</div>
+<div class="card">
+<img class="break" src="gt.jpeg" alt="poha">
+<button class="or">Order</button>
+</div>
+<div class="card">
+<img class="break" src="co.jpg" alt="Paratha">
+<button class="or">Order</button>
+</div>
+<div class="heading01">
+  Snacks
+</div>
+<div class="scroll"></div>
+<div class="card">
+  <img class="break" src="sn1.webp" alt="idli">
+  <button class="or">Order</button>
+</div>
+<div class="card">
+  <img class="break" src="sn2.jpg" alt="dosa">
+  <button class="or">Order</button>
+</div>
+<div class="card">
+<img class="break" src="sn3.webp" alt="vada">
+<button class="or">Order</button>
+</div>
+<div class="card">
+<img class="break" src="sn4.jpeg" alt="omlete">
+<button class="or">Order</button>
+</div>
+<div class="card">
+<img class="break" src="n5.jpeg" alt="poha">
+<button class="or">Order</button>
+</div>
+<div class="card">
+<img class="break" src="n6.jpg" alt="Paratha">
+<button class="or">Order</button>
+</div>
+
+
+</body>
+</html>
